@@ -15,6 +15,7 @@ min_height_difference = 30
 cooldown_period = 1.5
 last_jump = time.time()
 
+
 cap = cv2.VideoCapture(0)
 
 with mp_pose.Pose(min_detection_confidence=0.5,min_tracking_confidence=0.5) as pose:
